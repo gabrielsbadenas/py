@@ -1,11 +1,6 @@
-'''
-import re
-result = re.findall('Welcome to Turing', 'Welcome',1)
-print(result)
 def listSkills(val, list=[]):
     list.append(val)
     return list
-    
 list1=listSkills('NodeJS')
 list2=listSkills('Java',[])
 list3=listSkills('ReactJS')
@@ -74,7 +69,6 @@ except:
     pass
 finally:
     pass
-'''
 #a=['w','t','T']
 #print('-'.join(a))
 #'T{}s{1}{2}'.format('b','o','l')
@@ -89,17 +83,15 @@ result.insert(3,'J')
 #result.insert(2,'J')
 
 #result.append(3,'J')
-'''
 print(result)
 x='abcdef'
 i='a'
-while i in x[:-1]:
-    print(i,end=' ')
+print(i)
 
 i=['n','r','v']
 print(i)
-for x in i:
-    i.append(x.upper())
-print(i)
-'''
-print([i.lower() for i in "TURING"])
+#for x in i:
+#    i.append(x.upper())
+#print(i)
+
+#print([i.lower() for i in "TURING"])
